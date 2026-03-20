@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente Banner</title>
+    <style>
+        /* Stile base del banner */
+        .banner-notifica {
+            background-color: #f1c40f; /* Colore distintivo (giallo) */
+            color: #333; /* Testo scuro per contrasto */
+            text-align: center; /* Testo centrato */
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            
+            /* Nascosto di default */
+            display: none; 
+        }
+
+        /* Classe per rendere visibile il banner */
+        .banner-notifica.visibile {
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner-notifica visibile">
+        Questo è un nuovo messaggio di notifica!
+    </div>
+
+</body>
+</html>
