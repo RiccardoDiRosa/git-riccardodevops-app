@@ -15,3 +15,14 @@ p {
     line-height: 1.6;
     color: #666666;
 }
+
+/* Stili per i link */
+a {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none; /* Rimuove la sottolineatura al passaggio del mouse */
+}
